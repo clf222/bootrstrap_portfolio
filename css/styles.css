@@ -1,5 +1,5 @@
 body {
- background-color:red;
+ background-color:blue;
   /*background-image:
   radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
   radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
@@ -25,7 +25,9 @@ header img {
 img.logo {
   max-width: 100px;
 }
-
+header {
+    marging-bottom: 2em;
+}
 h1,
 h2
    {
@@ -47,9 +49,7 @@ h2 {
   margin-bottom: 0;
 }
 hr {
-    color: black;
-    width: 4px;
-    width: 100%;
+border-top: 4px solid rgba(255,255, 0, 1);
 }
 /*h3 {
   font-size: 2em;
@@ -96,9 +96,9 @@ padding-top: 2em;
 }
 .color {
  margin-bottom: .5em;
-  width: 75px;
+  min-width: 75px;
   min-height: 75px;
-  padding: 1em;
+
 
 }
 
@@ -113,8 +113,11 @@ padding-top: 2em;
 .pink {
   background-color: #FF69B4;
 }
-header {
-  width: 100%;
+
+img.hero {
+    margin-top: 2em;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #projects {
