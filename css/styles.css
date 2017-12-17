@@ -58,22 +58,25 @@ h4 {
   margin: 0 auto 8px;
   text-transform: uppercase;
   color: #FFF;
-
+}
 p {
-  font-size: 1em;
-  text-align: center;
-  margin: 0 auto;
+      font-size: 1em;
+      text-align: center;
+      margin: 0 auto;
 }
 
 a {
-  text-align: center;
-  margin: 0 auto;
+      text-align: center;
+      color: #FFFAF0;
+      margin: 0 auto;
 }
 
 a:visited {
-  color: purple;
+    color: yellow;
 }
-
+a:focus, a:hover {
+    color: red;
+}
 
 
 aside {
@@ -84,15 +87,15 @@ padding-top: 2em;
   font-size: 1.25em;
   letter-spacing: 2px;
 }
-.row {
-    flex-shrink: 1;
-}
+
 .chip {
   min-height: 75px;
   width: 75px;
   text-align: center;
   margin-bottom: 25px;
-
+}
+.col {
+    min-height: 1px;
 }
 .color {
  margin-bottom: .5em;
