@@ -1,26 +1,17 @@
 body {
  background-color:blue;
-  /*background-image:
+ background-image:
   radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
   radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
   radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
   radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;*/
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-size: 16px;
   font-family: 'Roboto Slab', serif;
   color: #FFFAF0;
   padding-top: 2em;
 }
-
-/*header  {
-  margin: 5px auto;
-}
-
-header img {
-  display: block;
-  margin: 0 auto;
-}*/
 
 img.logo {
   max-width: 100px;
@@ -28,6 +19,7 @@ img.logo {
 header {
     marging-bottom: 2em;
 }
+
 h1,
 h2
    {
@@ -51,9 +43,7 @@ h2 {
 hr {
 border-top: 4px solid rgba(255,255, 0, 1);
 }
-/*h3 {
-  font-size: 2em;
-}*/
+
 h4 {
   margin: 0 auto 8px;
   text-transform: uppercase;
